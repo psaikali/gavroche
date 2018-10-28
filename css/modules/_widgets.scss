@@ -1,0 +1,230 @@
+// Common styles
+
+.widget{
+	ul, ol {
+		list-style: none;
+		padding:0;
+		
+		li {
+			margin-bottom: .75em;
+		}
+	}
+
+	table {
+		width: 100%;
+	}
+
+	td {
+		text-align: center;
+	}
+	select {
+		max-width: 100%;
+	}
+
+}
+// WordPress default widgets
+.widget_search {
+	position: relative;
+
+	.search-field {
+		width: 100%;
+	}
+
+	div {
+		position: relative;
+
+		input.search-field {
+			margin-bottom:0;
+			font-size: 1.8rem;
+		}
+
+		.submit-btn {
+			position: absolute;
+			right:4px;
+			top:4px;
+			bottom:4px;
+			background: $clr;
+			padding: 0.5em 1em;
+			border:none;
+
+			&:before {
+				position: absolute;
+				width: auto;
+				height: auto;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				color:#fff;
+				background: transparent !important;
+			}
+
+			&:hover {
+				&:before {
+					color:$clr;
+				}
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+.widget_text{
+
+}
+
+.widget_tag_cloud {
+	.tagcloud a {
+		display: inline-block;
+		background: rgba(#fff, .125);
+		border-radius: 3px;
+		padding: .25rem .5rem;
+		margin-bottom: .5rem;
+		line-height: 1;
+
+		&:hover {
+			background: $clr;
+		}
+	}
+}
+
+.widget_categories, .widget_nav_menu, .widget_pages {
+	ul {
+		.children, ul.sub-menu {
+			padding-left: $margin/2;
+			margin-top: 0;
+		}
+	}
+}
+
+.widget_calendar {
+
+	caption {
+		font-family: $heading_font;
+		padding: 1rem;
+		background: $clr;
+	}
+
+	th {
+		//font-weight: 400;
+		color: $footer_txt_clr;
+		padding: .5rem 0;
+	}
+
+	td, th {
+		padding: .5rem;
+	}
+
+	td {
+		a {
+			font-weight: bold;
+		}
+	}
+
+	#today {
+		font-weight:bold;
+	}
+
+	#next, #prev {
+		padding:0;
+
+		a {
+			display:block;
+			margin-top:2rem;
+			width: 100%;
+			height: 100%;
+			padding:0.5em 1em;
+			@extend .button;
+
+			&:after, &:before { display:none; }
+		}
+	}
+
+	#prev {
+		text-align: left;
+	}
+
+	#next {
+		text-align: right;
+	}
+}
+
+.widget_rss{
+
+	h3 a{
+		color:$heading_font_clr;
+	}
+
+	ul li a.rsswidget{
+		display:block;
+		margin-bottom: 5px;
+	}
+
+	.rss-date {
+		font-size: 14px;
+	}
+
+	.rssSummary{
+		margin: 5px 0;
+	}
+}
+
+// Intro custom widgets
+
+.widget_introcalltoaction {
+
+	.cta-description{
+
+		p {
+
+		}
+	}
+
+	a.button{
+		display:inline-block;
+		margin-top: 1em;
+	}
+}
+
+.widget_introsocial {
+
+	ul {
+		overflow: hidden;
+		@extend .clearfix;
+
+		li{
+			float: left;
+			padding: 5px;
+			margin-bottom:0;
+			border:none;
+
+			&:first-child{
+				padding-top:5px;
+			}
+
+			&:last-child{
+				padding-bottom:5px;
+			}
+
+			a{
+				font-size:26px;
+
+				&:hover{
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}
+
+// Footer widgets
+
+.footer-bar .widget{
+
+	> h3{
+		color:$footer_txt_clr;
+	}
+}

@@ -1,0 +1,61 @@
+$wp_margin: $margin/2;
+
+.alignnone {
+	margin: .25em 1.5em 1.5em 0;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: $wp_margin auto;
+}
+
+.alignleft {
+	float: left;
+	margin: $wp_margin/3 $wp_margin $wp_margin/3 0;
+}
+
+.alignright {
+	float: right;
+	margin: $wp_margin/3 0 $wp_margin/3 $wp_margin;
+}
+
+.gallery {
+	margin-bottom: $wp_margin;
+}
+
+.gallery-item {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+
+	/*.gallery-columns-2 & {
+		max-width: 50%;
+	}
+	.gallery-columns-3 & {
+		max-width: 33.33%;
+	}
+	.gallery-columns-4 & {
+		max-width: 25%;
+	}
+	.gallery-columns-5 & {
+		max-width: 20%;
+	}
+	.gallery-columns-6 & {
+		max-width: 16.66%;
+	}
+	.gallery-columns-7 & {
+		max-width: 14.28%;
+	}
+	.gallery-columns-8 & {
+		max-width: 12.5%;
+	}
+	.gallery-columns-9 & {
+		max-width: 11.11%;
+	}*/
+}
+
+.gallery-caption {
+	display: block;
+}

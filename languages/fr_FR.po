@@ -1,0 +1,1220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Intro\n"
+"POT-Creation-Date: 2015-05-26 14:01+0100\n"
+"PO-Revision-Date: 2015-05-26 14:03+0100\n"
+"Last-Translator: Mosaika.fr <bonjour@mosaika.fr>\n"
+"Language-Team: Thèmes de France <bonjour@themesdefrance.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;_ex;_nx;esc_attr_e;esc_attr__;"
+"esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../node_modules\n"
+
+#: ../404.php:16
+#, php-format
+msgid ""
+"The page you requested does not seem to exist. You can go back to <a href="
+"\"%s\">the home page</a> or browse the sitemap below."
+msgstr ""
+"La page que vous souhaitez visiter semble ne pas exister. Vous pouvez "
+"revenir à <a href=\"%s\">la page d'accueil</a> ou parcourir le plan du site "
+"ci-dessous."
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:21
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:56
+msgid "Slider"
+msgstr "Slider"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:29
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:64
+msgid "Image"
+msgstr "Image"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:50
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:85
+#: ../admin/metaboxes/post-formats.php:23
+msgid "Link"
+msgstr "Lien"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:67
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:102
+#: ../admin/metaboxes/page-templates.php:211 ../admin/widgets/social.php:148
+msgid "Title"
+msgstr "Titre"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:83
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:118
+#: ../admin/Cocorico/plugins/CocoricoComponents.php:322
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:97
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:132
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../admin/Cocorico/extensions/gavroche/EtendardPlugins.php:211
+#: ../admin/Cocorico/extensions/gavroche/GavrochePlugins.php:246
+msgid "delete"
+msgstr "supprimer"
+
+#: ../admin/Cocorico/plugins/CocoricoComponents.php:181
+msgid "Save all changes"
+msgstr "Sauvegarder"
+
+#: ../admin/Cocorico/plugins/CocoricoComponents.php:275
+msgid "Select"
+msgstr "Selectionner"
+
+#: ../admin/EDD_SL_Theme_Updater.php:67
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"Mettre ce thème à jour effacera les personnalisations que vous lui avez "
+"apporté. Cliquez sur 'Annuler' pour arrêter ou 'OK' pour procéder à la mise "
+"à jour."
+
+#: ../admin/EDD_SL_Theme_Updater.php:72
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Discover what's new</a> or <a href=\"%5$s\"%6$s>Update now !</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> est disponible. <a href=\"%3$s\" class=\"thickbox"
+"\" title=\"%4s\">Découvrez les nouveautés</a> ou <a href=\"%5$s\"%6$s>Mettez "
+"à jour maintenant</a>."
+
+#: ../admin/functions/intro-functions.php:76
+msgid "Set up the main menu"
+msgstr "Veuillez configurer le menu principal"
+
+#: ../admin/functions/intro-functions.php:217
+msgid "Published In"
+msgstr "Publié dans"
+
+#: ../admin/functions/intro-functions.php:219
+msgid "Previous Post"
+msgstr "Article précédent"
+
+#: ../admin/functions/intro-functions.php:220
+msgid "Next Post"
+msgstr "Article suivant"
+
+#: ../admin/functions/intro-functions.php:249
+msgid "Pingback:"
+msgstr "Rétrolien:"
+
+#: ../admin/functions/intro-functions.php:260
+msgid "Your comment is waiting for moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: ../admin/functions/intro-functions.php:270
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../admin/functions/intro-functions.php:270
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../admin/functions/intro-functions.php:274
+#, php-format
+msgid "Published on %s at %s"
+msgstr "Publié le %s à %s"
+
+#: ../admin/functions/intro-functions.php:281
+msgid "Reply"
+msgstr "Répondre"
+
+#: ../admin/functions/intro-functions.php:314
+#, php-format
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#: ../admin/functions/intro-functions.php:315
+msgid "Post comment"
+msgstr "Envoyer le commentaire"
+
+#: ../admin/functions/intro-functions.php:319
+#: ../admin/functions/intro-functions.php:322
+msgid "Name"
+msgstr "Nom"
+
+#: ../admin/functions/intro-functions.php:322
+#: ../admin/functions/intro-functions.php:329
+msgid "required"
+msgstr "requis"
+
+#: ../admin/functions/intro-functions.php:326
+#: ../admin/functions/intro-functions.php:329
+msgid "Email"
+msgstr "Email"
+
+#: ../admin/functions/intro-functions.php:332
+#: ../admin/functions/intro-functions.php:335
+msgid "Website"
+msgstr "Site"
+
+#: ../admin/functions/intro-functions.php:338
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../admin/functions/intro-functions.php:367
+msgid "There is no archives to display."
+msgstr "Il n'y a aucune archive à afficher."
+
+#: ../admin/functions/intro-functions.php:415
+msgid "Your browser is <em>too old !"
+msgstr "Votre navigateur est <em>trop vieux !"
+
+#: ../admin/functions/intro-functions.php:415
+msgid "Update your browser"
+msgstr "Mettez à jour votre navigateur"
+
+#: ../admin/functions/intro-functions.php:415
+msgid "or"
+msgstr "ou"
+
+#: ../admin/functions/intro-functions.php:415
+msgid "Install Google Chrome Frame"
+msgstr "Installez Google Chrome Frame"
+
+#: ../admin/functions/intro-functions.php:415
+msgid "to display this website correctly"
+msgstr "pour afficher votre site correctement"
+
+#: ../admin/functions/intro-functions.php:436
+msgid "Gavroche bbPress Addon"
+msgstr "Module bbPress pour Intro"
+
+#: ../admin/functions/intro-functions.php:445
+msgid ""
+"Gavroche bbPress Addon bring custom CSS styling to Gavroche to get a perfect "
+"bbPress integration."
+msgstr ""
+"Le module bbPress pour Intro optimise le style du thème Intro pour une "
+"intégration parfaite avec le plugin bbPress (pour créer un forum sur votre "
+"site)."
+
+#: ../admin/functions/intro-functions.php:449
+msgid "Get Gavroche bbPress Addon"
+msgstr "Obtenir le module bbPress pour Intro"
+
+#: ../admin/functions/intro-functions.php:456
+msgid "Gavroche bbPress Addon is installed. Thanks for using it !"
+msgstr ""
+"Le module bbPress pour Intro est installé. Merci à vous de l'utiliser !"
+
+#: ../admin/functions/intro-functions.php:458
+msgid "If you have some time, help us to improve it by giving some feedback."
+msgstr ""
+"Si vous avez un peu de temps, aidez-nous à améliorer ce module en nous "
+"disant que ce vous en pensez."
+
+#: ../admin/functions/intro-functions.php:462
+msgid "Give feedback on Gavroche bbPress Addon"
+msgstr "Faites un retour sur le module bbPress pour Intro"
+
+#: ../admin/index.php:14 ../functions.php:264
+msgid "Gavroche Settings"
+msgstr "Options Gavroche"
+
+#: ../admin/index.php:25
+msgid "General"
+msgstr "Général"
+
+#: ../admin/index.php:26 ../header-bar.php:66
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../admin/index.php:27
+msgid "Advanced"
+msgstr "Options avancées"
+
+#: ../admin/index.php:28
+msgid "Addons"
+msgstr "Modules"
+
+#: ../admin/index.php:41
+msgid "License"
+msgstr "Licence"
+
+#: ../admin/index.php:42
+msgid ""
+"Purchase a licence key in order to receive Gavroche updates and get access "
+"to support. Then paste it in the field above."
+msgstr ""
+"Achetez une clé de licence pour recevoir des mises à jour et accéder au "
+"support. Collez-là ensuite dans le champ ci-dessus."
+
+#: ../admin/index.php:42
+msgid "Get Gavroche updates & support"
+msgstr "Obtenir des mises à jour et du support pour Intro"
+
+#: ../admin/index.php:53
+msgid "Main color"
+msgstr "Couleur principale"
+
+#: ../admin/index.php:54
+msgid "This color will be used across your website for buttons, links, etc."
+msgstr ""
+"Cette couleur sera utilisée sur votre site pour les boutons, les liens, etc."
+
+#: ../admin/index.php:62
+msgid "Logo"
+msgstr "Logo"
+
+#: ../admin/index.php:63
+msgid ""
+"Upload a logo to display in the header (if you don't have a logo, the name "
+"of your website will be displayed instead)."
+msgstr ""
+"Envoyez un logo à afficher dans l'en-tête (si vous n'en avez pas, le nom de "
+"votre site sera affiché à la place)."
+
+#: ../admin/index.php:71
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../admin/index.php:72
+msgid "Upload the favicon of your website."
+msgstr ""
+"Envoyez l'image (format PNG conseillé, 64x64px) utilisée comme favicon de "
+"votre site."
+
+#: ../admin/index.php:80
+msgid "Default background"
+msgstr "Arrière-plan de page par défaut"
+
+#: ../admin/index.php:81
+msgid "Upload an image that will be used as a default background."
+msgstr "Envoyez l'image qui sera utilisée par défaut en arrière-plan de page."
+
+#: ../admin/index.php:89
+msgid "Call-to-action text"
+msgstr "Texte d'appel à l'action"
+
+#: ../admin/index.php:90
+msgid ""
+"This is the text displayed above the content in the CTA box. Once clicked, "
+"it will open the CTA box."
+msgstr ""
+"Ceci est affiché dans la barre d'appel à l'action. Une fois cliquée, un "
+"contenu s'affichera en complément de la barre."
+
+#: ../admin/index.php:92
+msgid ""
+"<i class=\"typcn typcn-heart-outline\"></i> Stay informed : subscribe !<span "
+"class=\"dot\">.</span> Suivez-nous !"
+msgstr ""
+"<i class=\"typcn typcn-heart-outline\"></i> Restez informés : inscrivez-"
+"vous !<span class=\"dot\">.</span>"
+
+#: ../admin/index.php:111
+msgid ""
+"Choose elements to display on the homepage and organize them by drag & drop"
+msgstr ""
+"Choisissez les éléments à afficher sur la page d'accueil et organisez-les en "
+"les glissant-déposant."
+
+#: ../admin/index.php:113
+msgid "Page content"
+msgstr "Contenu de la page"
+
+#: ../admin/index.php:114
+msgid "Portfolio featured projects"
+msgstr "Projets de portfolio mis en avant"
+
+#: ../admin/index.php:115
+msgid "Skills"
+msgstr "Compétences"
+
+#: ../admin/index.php:116
+msgid "References"
+msgstr "Références"
+
+#: ../admin/index.php:117
+msgid "Blog posts"
+msgstr "Articles du blog"
+
+#: ../admin/index.php:125
+msgid "Posts on homepage"
+msgstr "Articles sur la page d'accueil"
+
+#: ../admin/index.php:126
+msgid "How many blog posts should be displayed on the homepage ?"
+msgstr ""
+"Combien d'articles de blog souhaitez-vous afficher sur la page d'accueil ?"
+
+#: ../admin/index.php:137
+msgid "Copyright content"
+msgstr "Contenu du copyright"
+
+#: ../admin/index.php:138
+msgid ""
+"Copyright content displayed in the footer. The following HTML tags are "
+"allowed : &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;img&gt;. %YEAR% will be "
+"replaced by the current year."
+msgstr ""
+"Ce contenu de copyright sera affiché dans le footer. Les balises HTML "
+"suivantes sont autorisées : &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;"
+"img&gt;. %YEAR% sera remplacé par l'année en cours."
+
+#: ../admin/index.php:140
+#, php-format
+msgid ""
+"<strong>%s</strong> - Gavroche by <a href=\"https://www.themesdefrance.fr/\" "
+"target=\"_blank\">Themes de France</a>"
+msgstr ""
+"<strong>%s</strong> -Gavroche par <a href=\"https://www.themesdefrance.fr\" "
+"target=\"_blank\">Thèmes de France</a>"
+
+#: ../admin/index.php:158
+msgid "Archive slug"
+msgstr "Slug des archives"
+
+#: ../admin/index.php:159
+msgid ""
+"This settings lets you change the projects archive URL slug (default is "
+"\"portfolio\")."
+msgstr ""
+"Cette option vous permet de changer l'URL de la page d'archives de projets "
+"de portfolio (par défaut \"portfolio\")."
+
+#: ../admin/index.php:159 ../admin/index.php:171 ../admin/index.php:183
+msgid ""
+"<br><small>(please visit the Permalinks Settings page after changing this "
+"setting)</small>"
+msgstr ""
+"<br><small>(veuillez visiter la page <em>Réglages > Permaliens</em> après "
+"modification de cette option)</small>"
+
+#: ../admin/index.php:170
+msgid "Single project slug"
+msgstr "Slug d'une page d'un projet de portfolio"
+
+#: ../admin/index.php:171
+msgid ""
+"This settings lets you change a single project URL slug (default is \"project"
+"\")."
+msgstr ""
+"Cette option vous permet de changer l'URL de la page d'UN projet de "
+"portfolio (par défaut \"projet\")."
+
+#: ../admin/index.php:182
+msgid "Project category slug"
+msgstr "Slug d'une page de catégorie de projet de portfolio"
+
+#: ../admin/index.php:183
+msgid ""
+"This settings lets you change the projects categories URL slug (default is "
+"\"project-category\")."
+msgstr ""
+"Cette option vous permet de changer l'URL d'une page de catégorie de projets "
+"de portfolio (par défaut \"project-category\")."
+
+#: ../admin/index.php:203
+msgid "Additional CSS"
+msgstr "CSS supplémentaire"
+
+#: ../admin/index.php:207
+msgid ""
+"CSS rules added in this field will be added to your site. If you have too "
+"many updates, you should download and install the Gavroche child theme from"
+msgstr ""
+"Les règles CSS ajoutées dans ce champ seront ajoutées à votre site. Si vous "
+"ajoutez un grand nombre de règles, vous devriez télécharger et installer un "
+"thème enfant à partir de"
+
+#: ../admin/index.php:207
+msgid "your Themes de France account"
+msgstr "votre compte Thèmes de France"
+
+#: ../admin/index.php:215
+msgid "Additional HTML in &lt;head&gt;"
+msgstr "Contenu HTML additionnel dans le &lt;head&gt;"
+
+#: ../admin/index.php:219
+msgid "This extra HTML code will be added in the &lt;head&gt; on each page."
+msgstr "Ce code HTML extra sera ajouté au &lt;head&gt; sur chaque page."
+
+#: ../admin/index.php:227
+msgid "Additional HTML in &lt;body&gt;"
+msgstr "Contenu HTML additionnel dans le &lt;body&gt;"
+
+#: ../admin/index.php:231
+msgid ""
+"This extra HTML code will be added just before the &lt;/body&gt; end tag on "
+"each page."
+msgstr ""
+"Ce code HTML extra sera ajouté juste avant la fin du &lt;/body&gt; sur "
+"chaque page."
+
+#: ../admin/index.php:247
+msgid ""
+"Do you know that Gavroche can be extended with addons ? Check the addons "
+"available below :"
+msgstr ""
+"Savez-vous que le thème Gavroche peut se doter de nouvelles "
+"fonctionnalités ? Jetez un oeil aux modules ci-dessous :"
+
+#: ../admin/index.php:262
+msgid "Save changes"
+msgstr "Sauvegarder"
+
+#: ../admin/index.php:273
+msgid "Any questions on Gavroche ? Go to the"
+msgstr "Des questions sur Gavroche ? Posez-la sur la"
+
+#: ../admin/index.php:273
+msgid "Themes de France support page."
+msgstr "page de support de Thèmes de France."
+
+#: ../admin/index.php:277
+msgid "In order to get support, you need to purchase"
+msgstr "Pour bénéficier du support, vous avez besoin d'acquérir"
+
+#: ../admin/index.php:277
+msgid "the full version."
+msgstr "la version complète."
+
+#: ../admin/index.php:281
+msgid "If you like Gavroche, you should"
+msgstr "Si vous aimez Gavroche, vous devriez"
+
+#: ../admin/index.php:281
+msgid "follow us on Facebook"
+msgstr "nous suivre sur Facebook"
+
+#: ../admin/metaboxes/page-templates.php:26
+msgid "Layout"
+msgstr "Mise en page"
+
+#: ../admin/metaboxes/page-templates.php:58
+msgid "Large thumbnail"
+msgstr "Large miniature"
+
+#: ../admin/metaboxes/page-templates.php:59
+msgid "Small icon"
+msgstr "Petite icône"
+
+#: ../admin/metaboxes/page-templates.php:61
+msgid "Project thumbnail type"
+msgstr "Type d'aperçu du projet"
+
+#: ../admin/metaboxes/page-templates.php:62
+msgid ""
+"Use the <a href='#postimagediv'>Featured image</a> to upload the large "
+"thumbnail or small icon."
+msgstr ""
+"Utilisez l'<a href='#postimagediv'>Image à la une</a> pour définir une large "
+"miniature ou une petite icône."
+
+#: ../admin/metaboxes/page-templates.php:72
+msgid "Alternative title"
+msgstr "Titre alternatif"
+
+#: ../admin/metaboxes/page-templates.php:87
+msgid "Enable"
+msgstr "Activer"
+
+#: ../admin/metaboxes/page-templates.php:89
+msgid "Double content layout"
+msgstr "Structure à double contenu"
+
+#: ../admin/metaboxes/page-templates.php:90
+msgid ""
+"If enabled, the main content section width will be reduced and a "
+"complementary content section will be displayed."
+msgstr ""
+"Si activé, la largeur du contenu principal sera réduite et un contenu "
+"supplémentaire s'affichera à sa droite."
+
+#: ../admin/metaboxes/page-templates.php:98
+msgid "Body background"
+msgstr "Arrière-plan de la page"
+
+#: ../admin/metaboxes/page-templates.php:99
+msgid "Upload an image to override the default background."
+msgstr "Envoyez une image pour modifier l'arrière-plan de cette page."
+
+#: ../admin/metaboxes/page-templates.php:107
+msgid "Page header image"
+msgstr "Image avant contenu"
+
+#: ../admin/metaboxes/page-templates.php:108
+msgid "This (optional) image will be displayed before the title and content."
+msgstr "Cette image (facultative) sera affichée avant le titre et le contenu."
+
+#: ../admin/metaboxes/page-templates.php:130
+msgid "Complementary content"
+msgstr "Contenu supplémentaire"
+
+#: ../admin/metaboxes/page-templates.php:159
+msgid "Content"
+msgstr "Contenu"
+
+#: ../admin/metaboxes/page-templates.php:160
+msgid ""
+"This complementary content will be used on the right part of your page, next "
+"to the small content section."
+msgstr ""
+"Ce contenu supplémentaire s'affichera à droite du contenu principal de votre "
+"page."
+
+#: ../admin/metaboxes/page-templates.php:183
+msgid "Homepage Portfolio Projects"
+msgstr "Projets de portfolio"
+
+#: ../admin/metaboxes/page-templates.php:212
+msgid "This title will be displayed before the portfolio projects."
+msgstr "Ce titre s'affichera avant les aperçus de projets."
+
+#: ../admin/metaboxes/page-templates.php:215
+msgid "Some of my projects"
+msgstr "Petit aperçu"
+
+#: ../admin/metaboxes/page-templates.php:251
+msgid "Featured projects"
+msgstr "Projets de portfolio mis en avant"
+
+#: ../admin/metaboxes/page-templates.php:252
+msgid "Select the projects to be featured on the homepage."
+msgstr "Choisissez les projets à mettre en avant sur la page d'accueil."
+
+#: ../admin/metaboxes/page-templates.php:274
+msgid "Homepage Skills"
+msgstr "Compétences"
+
+#: ../admin/metaboxes/page-templates.php:315
+#: ../admin/metaboxes/page-templates.php:390
+msgid "Title (left)"
+msgstr "Titre (gauche)"
+
+#: ../admin/metaboxes/page-templates.php:316
+msgid "This title will be displayed at the top left of the skills section."
+msgstr "Ce titre s'affichera en haut de la section Compétences."
+
+#: ../admin/metaboxes/page-templates.php:319
+msgid "What I can do"
+msgstr "Mon savoir-faire"
+
+#: ../admin/metaboxes/page-templates.php:328
+#: ../admin/metaboxes/page-templates.php:403
+msgid "Text content (left)"
+msgstr "Contenu textuel (droite)"
+
+#: ../admin/metaboxes/page-templates.php:329
+msgid "This content will be display in the skills box, on the left."
+msgstr "Ce contenu s'affichera à gauche de la section Compétences."
+
+#: ../admin/metaboxes/page-templates.php:340
+msgid "Boxes (right)"
+msgstr "Boites (droite)"
+
+#: ../admin/metaboxes/page-templates.php:341
+msgid "Select the pages that will be displayed in the boxes, on the right."
+msgstr ""
+"Sélectionnez les pages qui s'afficheront à droite de la section Compétences."
+
+#: ../admin/metaboxes/page-templates.php:362
+msgid "Homepage References"
+msgstr "Références"
+
+#: ../admin/metaboxes/page-templates.php:391
+msgid "This title will be displayed at the top left of the references section."
+msgstr "Ce titre s'affichera en haut de la section Références."
+
+#: ../admin/metaboxes/page-templates.php:394
+msgid "Some of my clients"
+msgstr "Ils me font confiance"
+
+#: ../admin/metaboxes/page-templates.php:404
+msgid ""
+"This content will be display in the references section, just above the "
+"footer."
+msgstr "Ce contenu s'affichera sous le titre."
+
+#: ../admin/metaboxes/post-formats.php:32
+msgid "Quote"
+msgstr "Citation"
+
+#: ../admin/metaboxes/post-formats.php:41
+msgid "Video"
+msgstr "Vidéo"
+
+#: ../admin/metaboxes/post-formats.php:69
+msgid "Link to feature"
+msgstr "Lien à mettre en avant"
+
+#: ../admin/metaboxes/post-formats.php:70
+msgid ""
+"Add a link to feature for this post. You're free to talk about it in the "
+"post content."
+msgstr ""
+"Ajoutez un lien à mettre en avant pour cet article. Vous pouvez en parler "
+"dans le contenu de l'article."
+
+#: ../admin/metaboxes/post-formats.php:99
+msgid "Quote to feature"
+msgstr "Citation à mettre en avant"
+
+#: ../admin/metaboxes/post-formats.php:100
+msgid "Add some wise words and talk about it in the post content."
+msgstr "Ajoutez quelques mots et parlez en dans le contenu de l'article."
+
+#: ../admin/metaboxes/post-formats.php:111
+msgid "Quote author (optional)"
+msgstr "Auteur de la citation (facultatif)"
+
+#: ../admin/metaboxes/post-formats.php:112
+msgid "Be nice and don't forget to credit the quote author."
+msgstr "Soyez sympa et n'oubliez pas de créditer l'auteur de la citation."
+
+#: ../admin/metaboxes/post-formats.php:139
+msgid "Video to feature"
+msgstr "Vidéo à mettre en avant"
+
+#: ../admin/metaboxes/post-formats.php:140
+msgid "Add a video link from Youtube, Dailymotion or Vimeo."
+msgstr "Ajoutez un lien de Youtube, Dailymotion ou Vimeo."
+
+#: ../admin/widgets/calltoaction.php:35
+msgid "Gavroche - Call to action"
+msgstr "Gavroche - Incitation de l'appel à l'action"
+
+#: ../admin/widgets/calltoaction.php:36
+msgid "Add a call to action in the sidebar."
+msgstr "Ajouter un appel à l'action dans la barre latérale."
+
+#: ../admin/widgets/calltoaction.php:67
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: ../admin/widgets/calltoaction.php:104 ../admin/widgets/video.php:118
+msgid "Title:"
+msgstr "Titre:"
+
+#: ../admin/widgets/calltoaction.php:108
+msgid "Call to action incentive:"
+msgstr "Incitation de l'appel à l'action:"
+
+#: ../admin/widgets/calltoaction.php:112
+msgid "Call to action destination (url):"
+msgstr "Destination de l'appel à l'action (url):"
+
+#: ../admin/widgets/calltoaction.php:116
+msgid "Button's label:"
+msgstr "Libellé du bouton:"
+
+#: ../admin/widgets/social.php:63
+msgid "Gavroche - Social"
+msgstr "Gavroche - Social"
+
+#: ../admin/widgets/social.php:64
+msgid "Display links to your social profiles."
+msgstr "Afficher les liens vers vos profils sociaux."
+
+#: ../admin/widgets/social.php:123 ../admin/widgets/video.php:95
+msgid "Please enter a valid url"
+msgstr "Veuillez entrer une url valide"
+
+#: ../admin/widgets/social.php:139
+msgid "More networks"
+msgstr "Plus de réseaux"
+
+#: ../admin/widgets/video.php:44
+msgid "Gavroche - Video"
+msgstr "Gavroche - Video"
+
+#: ../admin/widgets/video.php:45
+msgid "Add a video from Youtube, Dailymotion or Vimeo."
+msgstr "Ajoutez une vidéo à partir de Youtube, Dailymotion ou Vimeo."
+
+#: ../admin/widgets/video.php:75
+msgid ""
+"To display a video, please add a Youtube, Dailymotion or Vimeo URL in the "
+"widget settings."
+msgstr ""
+"Pour afficher une vidéo, veuillez ajouter un lien Youtube, Dailymotion ou "
+"Vimeo dans les paramètres du widget."
+
+#: ../admin/widgets/video.php:101
+msgid "This video url doesn't seem to exist."
+msgstr "L'url de cette vidéo semble être erronée."
+
+#: ../admin/widgets/video.php:122
+msgid "Video URL (Youtube, Dailymotion or Vimeo):"
+msgstr "URL de la vidéo"
+
+#: ../archive-portfolio.php:29 ../index.php:25 ../taxonomy-skill.php:29
+msgid "Pages : "
+msgstr "Pages : "
+
+#: ../comments.php:25
+#, php-format
+msgid "1 comment was added, add yours"
+msgid_plural "%s comments were added, add yours"
+msgstr[0] "Un commentaire a été rédigé, ajoutez le votre"
+msgstr[1] "%s commentaires ont été rédigés, ajoutez le votre"
+
+#: ../comments.php:42
+msgid "<i class=\"typcn typcn-arrow-left\"></i> Previous comments"
+msgstr "<i class=\"typcn typcn-arrow-left\"></i> Commentaires précédents"
+
+#: ../comments.php:46
+msgid "Next comments <i class=\"typcn typcn-arrow-right\"></i>"
+msgstr "Commentaires suivants <i class=\"typcn typcn-arrow-right\"></i>"
+
+#: ../comments.php:56
+msgid "Be the first to post a comment."
+msgstr "Soyez le premier à publier un commentaire"
+
+#: ../comments.php:66
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../content-body.php:36 ../content-body.php:56
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: ../content-body.php:88 ../content-page.php:29
+msgid "Pages:"
+msgstr "Pages:"
+
+#: ../content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: ../content-none.php:21
+msgid ""
+"Sorry but no post match what you are looking for. Try some new keywords "
+"below :"
+msgstr ""
+"Désolé mais aucun article ne correspond à ce que vous recherchez. Essayez de "
+"nouveaux mot-clés ci-dessous :"
+
+#: ../content-none.php:29
+#, php-format
+msgid ""
+"Sorry but no post match what you are looking for. You should <a href=\"%1$s"
+"\">go back to the homepage</a> and start again."
+msgstr ""
+"Désolé mais aucun article ne correspond à ce que vous recherchez. Vous "
+"devriez <a href=\"%1$s\">revenir sur la page d'accueil</a> et recommencer."
+
+#: ../content-partial-meta-portfolio.php:18
+#, php-format
+msgid "Client : %s"
+msgstr "Client : %s"
+
+#: ../content-partial-meta-portfolio.php:22
+msgid "Visit project website"
+msgstr "Visiter le site du projet"
+
+#: ../content-partial-meta.php:15
+msgid "Published "
+msgstr "Publié"
+
+#: ../content-partial-meta.php:19
+msgid "on"
+msgstr "le"
+
+#: ../content-partial-meta.php:28
+#, php-format
+msgid " and updated on %s"
+msgstr " et mis à jour le %s"
+
+#: ../content-partial-meta.php:37
+msgid "by"
+msgstr "par"
+
+#: ../content-partial-meta.php:50
+msgid "in"
+msgstr "dans"
+
+#: ../content-partial-meta.php:63
+msgid "No Comment"
+msgstr "Aucun commentaire"
+
+#: ../content-partial-meta.php:64
+msgid "One Comment"
+msgstr "Un commentaire"
+
+#: ../content-partial-meta.php:65
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: ../content-partial-meta.php:70
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../footer.php:52
+#, php-format
+msgid ""
+"<strong>&copy; %1$s %2$s</strong> - Gavroche WordPress theme by <a href="
+"\"https://www.themesdefrance.fr/\" rel=\"nofollow\" target=\"_blank\">Thèmes "
+"de France</a>"
+msgstr ""
+"<strong>&copy; %1$s %2$s</strong> - Gavroche par <a href=\"https://www."
+"themesdefrance.fr\" target=\"_blank\">Thèmes de France</a>"
+
+#: ../functions.php:85
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: ../functions.php:86
+msgid "Footer menu"
+msgstr "Menu du pied de page"
+
+#: ../functions.php:92
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: ../functions.php:94
+msgid "Add widgets in the sidebar."
+msgstr "Ajouter des widgets à la barre latérale."
+
+#: ../functions.php:102
+msgid "Footer left"
+msgstr "Pied de page, gauche"
+
+#: ../functions.php:104
+msgid "Display one (or many) widget(s) in the small left part of the footer."
+msgstr ""
+"Affiche un (ou plusieurs) widget(s) dans la petite partie gauche du footer."
+
+#: ../functions.php:112
+msgid "Footer right"
+msgstr "Pied de page, droite"
+
+#: ../functions.php:114
+msgid "Display one (or many) widget(s) in the large right part of the footer."
+msgstr ""
+"Affiche un (ou plusieurs) widget(s) dans la grande partie droite du footer."
+
+#: ../functions.php:122
+msgid "Call-to-action left"
+msgstr "Zone d'appel à l'action, gauche"
+
+#: ../functions.php:124 ../functions.php:134
+msgid ""
+"The call-to-action bar is loaded just before main content, at the top of the "
+"page."
+msgstr ""
+"La barre d'appel à l'action est chargée juste avant le contenu principal, en "
+"haut de page."
+
+#: ../functions.php:132
+msgid "Call-to-action right"
+msgstr "Zone d'appel à l'action, droite"
+
+#: ../functions.php:279
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n’avez pas les droits suffisants pour accéder à cette page."
+
+#: ../functions.php:619 ../template-sitemap.php:41
+msgid "Site pages"
+msgstr "Pages du site"
+
+#: ../functions.php:631
+msgid "Blog categories and posts"
+msgstr "Catégories et articles de blog"
+
+#: ../functions.php:652
+#, php-format
+msgid "View all posts in %s"
+msgstr "Voir tous les posts dans %s"
+
+#: ../functions.php:716
+msgid "Themes de France"
+msgstr "Thèmes de France"
+
+#: ../functions.php:741
+#, php-format
+msgid ""
+"To get Gavroche support and automatic updates, enter the licence key your "
+"received after your purchase. | <a href='%s'>It's ok, I don't want to update "
+"my theme</a>"
+msgstr ""
+"Pour obtenir du support et des mises à jour pour Gavroche, définissez votre "
+"clé de licence Thèmes de France. | <a href='%s'>Je ne suis pas intéressé</a>"
+
+#: ../functions.php:1255
+msgid "Discover more"
+msgstr "En savoir plus"
+
+#: ../functions.php:1683
+msgid "<p>You are here :</p>"
+msgstr "<p>Vous êtes ici :</p>"
+
+#: ../functions.php:1702
+msgid "My references"
+msgstr "Mes références"
+
+#: ../functions.php:1713
+msgid "My latest publications"
+msgstr "Mes dernières publications"
+
+#: ../header-bar.php:25
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: ../header-bar.php:34
+msgid "Posts from "
+msgstr "Articles classés dans "
+
+#: ../header-bar.php:40
+msgid "Posts tagged by "
+msgstr "Articles identifiés par "
+
+#: ../header-bar.php:52
+#, php-format
+msgid "Search results for : %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: ../header-bar.php:60
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: ../header-bar.php:72
+#, php-format
+msgid "Archives from %s"
+msgstr "Archives de %s"
+
+#: ../header-bar.php:75 ../header-bar.php:78
+#, php-format
+msgid "Archives for %s"
+msgstr "Archives de %s"
+
+#: ../header-bar.php:81
+msgid "Archives"
+msgstr "Archives"
+
+#: ../header.php:69
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../searchform.php:15 ../searchform.php:19
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: ../searchform.php:19
+msgid "Search ..."
+msgstr "Rechercher ..."
+
+#: ../template-homepage.php:15
+msgid "Homepage"
+msgstr "Page d'accueil"
+
+#: ../template-homepage.php:100
+msgid "See more projects"
+msgstr "Voir plus de projets"
+
+#: ../template-homepage.php:192
+msgid "Latest blog posts"
+msgstr "Derniers articles"
+
+#: ../template-homepage.php:233 ../template-homepage.php:247
+#, php-format
+msgid "Published %s ago"
+msgstr "Publié il y a %s"
+
+#: ../template-homepage.php:237
+msgid "Read full article"
+msgstr "Lire l'article complet"
+
+#: ../template-homepage.php:266
+#, php-format
+msgid ""
+"Your custom home page isn't fully set up, you have to choose the elements to "
+"display on <a href='%s'>Gavroche's settings page</a>."
+msgstr ""
+"Votre page d'accueil personnalisée n'est pas entièrement configurée. Rendez-"
+"vous sur la <a href='%s'>page d'options du thème</a> pour choisir les "
+"éléments à afficher."
+
+#: ../template-sitemap.php:15
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: ../template-sitemap.php:50
+msgid "All blog posts"
+msgstr "Tous les articles"
+
+#: ../template-sitemap.php:59
+msgid "Blog categories"
+msgstr "Catégories du blog"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#, fuzzy
+#~ msgid "Hello "
+#~ msgstr ""
+#~ "Bonjour <strong>%1$s</strong> (vous n'êtes pas %1$s ? <a href=\"%2$s"
+#~ "\">Déconnexion</a>)."
+
+#, fuzzy
+#~ msgid "Hello %s"
+#~ msgstr "Répondre à %s"
+
+#, fuzzy
+#~ msgid "hello %s"
+#~ msgstr "Répondre à %s"
+
+#, fuzzy
+#~ msgid "Hello"
+#~ msgstr ""
+#~ "Bonjour <strong>%1$s</strong> (vous n'êtes pas %1$s ? <a href=\"%2$s"
+#~ "\">Déconnexion</a>)."
+
+#, fuzzy
+#~ msgid "\n"
+#~ msgstr "N/A"
+
+#, fuzzy
+#~ msgid "I love you!"
+#~ msgstr "I&#287;d&#305;r"
+
+#, fuzzy
+#~ msgid " I    love   you!  "
+#~ msgstr "I&#287;d&#305;r"
+
+#, fuzzy
+#~ msgid "I_love_you!"
+#~ msgstr "I&#287;d&#305;r"
+
+#, fuzzy
+#~ msgid "I-love-you!"
+#~ msgstr "I&#287;d&#305;r"
+
+#, fuzzy
+#~ msgid "1"
+#~ msgstr "Veuillez supprimer 1 caractère"
+
+#, fuzzy
+#~ msgid "not a number"
+#~ msgstr "Facture n°"
+
+#, fuzzy
+#~ msgid "2"
+#~ msgstr "%1$s&ndash;%2$s"
+
+#, fuzzy
+#~ msgid "-2"
+#~ msgstr "%1$s&ndash;%2$s"
+
+#~ msgid "Oops, there is nothing here..."
+#~ msgstr "Mince, il n'y a rien ici..."
+
+#~ msgid "Previous comments"
+#~ msgstr "Commentaires précédents"
+
+#~ msgid "Next comments"
+#~ msgstr "Commentaires suivants"
+
+#~ msgid "Back to the top"
+#~ msgstr "Remonter"
+
+#~ msgid "Add widgets in the footer."
+#~ msgstr "Ajouter des widgets au pied de page."
+
+#~ msgid "Post width"
+#~ msgstr "Largeur de l'article"
+
+#~ msgid "Fullpage width"
+#~ msgstr "Largeur pleine page"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Fullwidth"
+#~ msgstr "Pleine page"
+
+#~ msgid "Display a sidebar on the content's right across your website."
+#~ msgstr "Afficher une barre latérale sur la droite du contenu de votre site."
+
+#~ msgid ""
+#~ "Left footer content. The following HTML tags are allowed : &lt;a "
+#~ "href=&quot;LINK&quot;&gt;TEXT_LINK&lt;/a&gt;, &lt;strong&gt;BOLD_TEXT&lt;/"
+#~ "strong&gt;, &lt;em&gt;ITALIC_TEXT&lt;/em&gt;, &lt;img src=&quot;"
+#~ "IMAGE_URL&quot;&gt;."
+#~ msgstr ""
+#~ "Contenu de la gauche du pied de page. Les balises HTML suivantes sont "
+#~ "acceptées : &lt;a href=&quot;LIEN&quot;&gt;TEXTE_DU_LIEN&lt;/a&gt;, &lt;"
+#~ "strong&gt;TEXTE_GRAS&lt;/strong&gt;, &lt;em&gt;TEXTE_ITALIQUE&lt;/em&gt;, "
+#~ "&lt;img src=&quot;URL_IMAGE&quot;&gt;."
+
+#~ msgid ""
+#~ "In order to get updates, please enter your licence that you received by "
+#~ "email."
+#~ msgstr ""
+#~ "Afin de recevoir les mises à jour, veuillez entrer votre clé de licence "
+#~ "reçue par email."
+
+#~ msgid "Posts by %s"
+#~ msgstr "Articles de %s "
+
+#~ msgid "Appearance"
+#~ msgstr "Apparence"
+
+#~ msgid ""
+#~ "Enter your licence key in order to receive Galopin updates. You'll find "
+#~ "it in the confirmation email we sent you after your purchase."
+#~ msgstr ""
+#~ "Entrez votre clé de licence afin de recevoir les mises à jour de Galopin. "
+#~ "Vous la trouverez quand l'email de confirmation que nous vous avons "
+#~ "envoyé après à votre commande."
+
+#~ msgid "Fullscreen home header image"
+#~ msgstr "Image d'en-tête en plein écran sur l'accueil"
+
+#~ msgid "Fill out the screen with the home header image."
+#~ msgstr "Afficher l'image d'en-tête sur la totalité de l'écran."
+
+#~ msgid ""
+#~ "Upload an image to use as header on your website. Use a 1920x500 jpg/png "
+#~ "file or more if you enabled the fullscreen home header image."
+#~ msgstr ""
+#~ "Envoyer une image en tant qu'image d'en-tête pour votre site. Utilisez un "
+#~ "fichier jpg/png de 1920x500 ou plus si vous avez activé l'image d'en-tête "
+#~ "en plein écran sur l'accueil."
+
+#~ msgid "Masonry"
+#~ msgstr "Masonry"
+
+#~ msgid ""
+#~ "Enables the masonry layout on the home page, categories, tags and "
+#~ "archives pages."
+#~ msgstr ""
+#~ "Active l'agencement masonry sur la page d'accueil, les pages de "
+#~ "catégories, mots-clés et d'archives."
+
+#~ msgid "Published on %2$s by <a href=\"%3$s\">%4$s</a> in %5$s | "
+#~ msgstr "Publié le %2$s par <a href=\"%3$s\">%4$s</a> dans %5$s | "
+
+#~ msgid "Post"
+#~ msgstr "Article"
+
+#~ msgid ""
+#~ "Galopin by <a href=\"https://www.themesdefrance.fr\" target=\"_blank"
+#~ "\">Themes de France</a>"
+#~ msgstr ""
+#~ "Galopin par <a href=\"https://www.themesdefrance.fr\" target=\"_blank"
+#~ "\">Thèmes de France</a>"

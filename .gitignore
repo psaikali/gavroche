@@ -1,0 +1,14 @@
+.DS_Store
+composer.phar
+/vendor/*
+##*.lock
+!assets/js/vendor/*
+.settings
+.project
+.svn
+*.svn
+node_modules
+.npm-debug.log
+.idea/
+.idea_modules/
+.sass-cache

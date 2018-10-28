@@ -1,0 +1,89 @@
+/*********************************************
+ * Portfolio styles
+ * Includes portfolio blocks on archive/home pages or full single portfolio design
+ *********************************************/
+
+article.portfolio-project {
+	font-size:1.6rem;
+	@extend %transition_out;
+	margin-bottom: $margin/2;
+
+	.project-inner {
+		background: #fff;
+		overflow: hidden;
+	}
+
+	figure.project-thumbnail {
+		a {
+			display: block;
+			@extend %no_border;
+
+			img {
+
+			}
+		}
+	}
+
+	figure.project-icon {
+		display: inline-block;
+		float: left;
+		margin: 0 1rem 1rem 0;
+		border-radius:.5rem;
+
+		a {
+			display: block;
+			@extend %no_border;
+
+			&:after {
+				font-size: 4rem;
+			}
+
+			img {
+
+			}
+		}
+	}
+
+	div.project-info {
+		padding:$box_padding;
+
+		ul.project-categories {
+			@extend %list_inline;
+			@extend %list_labels;
+			margin-top: 1rem;
+			overflow:visible;
+
+			li {
+				margin-bottom: .5rem;
+
+				&:before { display:none; }
+			}
+		}
+
+		h4.project-title {
+			//clear:left;
+			font-size: 1.8rem;
+			margin-bottom: .25em;
+			margin-top: 0;
+
+			a {
+				color: $main_font_clr;
+				@extend %no_border;
+			}
+
+			&:hover {
+				a {
+					color: $clr;
+				}
+			}
+		}
+
+		div.project-excerpt {
+
+		}
+	}
+}
+
+p.button-portfolio {
+	text-align: center;
+}

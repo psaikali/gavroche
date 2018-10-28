@@ -1,0 +1,125 @@
+/*********************************************
+ * Site-wide layout CSS
+ * Includes sidebar, main & complementary content and footer structure
+ *********************************************/
+
+.page-wrapper {
+	@extend %clearfix;
+	max-width:1800px;
+	//margin-right: 10rem;
+	position:relative;
+	height:100%;
+
+	#aside {
+		position: relative;
+		background:#111;
+		background: rgba(#000, $bg_opacity_aside);
+		z-index: 1000;
+		font-size: 1.8rem;
+
+		&:before {
+			@extend %pseudo;
+			opacity:0;
+		}
+	}
+
+	#content {
+		@extend %clearfix;
+
+		.main-content {
+			background: #fff;
+			background: rgba(#fff, $bg_opacity_content);
+			padding:$margin $margin*0.625 $margin*0.625;
+			min-height:100rem;
+		}
+
+		.complementary-content {
+			padding:3.75%;
+		}
+	}
+
+	@media (min-width:1024px) {
+		margin-right: 12.5rem;
+
+		#aside {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: $aside_width;
+			height:100%;
+			background: transparent;
+
+			&:before {
+				opacity:1;
+				position: fixed;
+				top:0;
+				bottom:0px;
+				left:0;
+				width:$aside_width;
+				z-index: -1;
+				background:#111;
+				background: rgba(#000, $bg_opacity_aside);
+			}
+		}
+
+		.content-block {
+			margin-left: $aside_width;
+		}
+
+		#content {
+			position:relative;
+
+			.main-content {
+				padding:$margin*2 7.5% $margin;
+			}
+
+			.main-content.small, .complementary-content {
+				float:left;
+			}
+
+			.main-content.small {
+				width: 60%;
+			}
+
+			.complementary-content {
+				width: 40%;
+				padding-right:0;
+			}
+
+			&:before {
+				content: "";
+				display: block;
+				position: absolute;
+				background: url('img/shadow_top_left.png') top left no-repeat;
+				width:48px;
+				height:301px;
+				position:fixed;
+				top:0;
+				left:$aside_width;
+				margin-left:-48px;
+				opacity:.8;
+			}
+		}
+	}
+
+	@media (min-width:1600px) {
+		#aside {
+			width: $aside_width*1.125;
+
+			&:before {
+				width:$aside_width*1.125;
+			}
+		}
+
+		#content {
+			&:before {
+				left:$aside_width*1.125;
+			}
+		}
+
+		.content-block {
+			margin-left: $aside_width*1.125;
+		}
+	}
+}

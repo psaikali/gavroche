@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import "style.css";
+
+body {
+	&, &.mceContentBody, &.wp-autoresize {
+		padding: 2em !important;
+		background: #fff;
+	}
+}

@@ -1,0 +1,4 @@
+@import url(style.css);
+body, body.mceContentBody, body.wp-autoresize {
+  padding: 2em !important;
+  background: #fff; }
